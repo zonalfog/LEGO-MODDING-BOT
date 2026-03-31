@@ -1,0 +1,36 @@
+MeinBot - Discord Bot with .zd File Support
+==========================================
+
+This BOT was written in Python 3.10 - make sure you installed Python 3.10 or higher.
+
+Originally created only for the LEGO Modding Server, I'm sharing this Bot so you can see how it works.
+The bot includes custom .zd file format support with encryption.
+
+MAIN FEATURES:
+- .zip to .zd conversion (encrypted format)
+- .zd to .zip conversion  
+- .zd file extraction
+- Real .zd format with XOR encryption
+- Backward compatibility with old .zd files
+- Interactive batch scripts included
+
+QUICK START:
+1. Install Python 3.10+
+2. Install discord.py: pip install discord.py
+3. Configure TOKEN, TARGET_CATEGORY_ID, and DEFAULT_REPLY_CHANNEL_ID
+4. Run: python meinbot.py
+
+DISCORD COMMANDS:
+- Upload .zip + "make it zd" → Creates encrypted .zd
+- Upload .zd + "extract" → Extracts all files
+- Upload .zd + "extract as zip" → Converts to .zip
+
+STANDALONE TOOLS:
+- convert_to_zd_interactive.bat - Interactive converter
+- extract_zd_interactive.bat - Interactive extractor
+- create_real_zd.py - Python library for .zd format
+
+The .zd format uses custom encryption and cannot be extracted by simple renaming.
+Check README.md for detailed documentation and setup instructions.
+
+For support with LEGO modding, see the !help command in Discord.

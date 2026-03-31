@@ -1,5 +1,8 @@
 //Powershell commands
 
- //first : cd "C:\Users\URNAME\UR PATH\meinbot
+ //first : cd "C:\URPATH\meinbot"         (SSD is requiment also only :C works make sure u hav also discord on :C browser works not)
+ 
  //second : py -3.10 meinbot.py
+ 
+ //also make sure u dont rename files or folders!).
  
